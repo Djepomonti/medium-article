@@ -1,0 +1,98 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+  padding-bottom: 30px;
+  text-shadow: 2px 2px 2px #4c4444;
+  width: 700px;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px #4c4444;
+  width: 700px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: 'Lora', serif;
+}
+
+.cover{
+  display: flex;
+  height: 500px;
+  background:   linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+  url("src/img.jpg") no-repeat;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  font-size: 19px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+p{
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0 50px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #A0A0A0;
+  font-weight: 400;
+  font-size: 24px;
+  padding-top: 35px;
+  padding-bottom: 15px;
+  margin: 0 50px;
+
+
+}
+
+a{
+  font-family: 'Lora', serif;
+  text-decoration: none;
+  margin: 0 50px;
+  color: #494949;
+  font-size: 24px;
+  background-color: antiquewhite;
+  line-height: 50px;
+  font-style: italic;
+}
+a:hover {
+  background-color: rgb(235, 160, 61);
+
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container, h1, h2{
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container, h1, h2 {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .containe, h1, h2 {
+    width: 300px;
+  }
+}
